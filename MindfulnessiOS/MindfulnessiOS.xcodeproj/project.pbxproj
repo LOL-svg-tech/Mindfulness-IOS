@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06C81C72C72EF9D00181576 /* Recommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C81C62C72EF9D00181576 /* Recommendations.swift */; };
+		A06C81C92C72F0D800181576 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C81C82C72F0D800181576 /* Library.swift */; };
+		A06C81CB2C72F0EC00181576 /* Saved Guides.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C81CA2C72F0EC00181576 /* Saved Guides.swift */; };
+		A09C652B2C44E36C003F1545 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09C652A2C44E36C003F1545 /* Settings.swift */; };
+		A0A4764F2C744A2A001AA927 /* Mindone.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A4764E2C744A2A001AA927 /* Mindone.png */; };
 		A0BA7F202C40D3B500082026 /* MindfulnessiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA7F1F2C40D3B500082026 /* MindfulnessiOSApp.swift */; };
 		A0BA7F222C40D3B500082026 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA7F212C40D3B500082026 /* ContentView.swift */; };
 		A0BA7F242C40D3B800082026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BA7F232C40D3B800082026 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A06C81C62C72EF9D00181576 /* Recommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendations.swift; sourceTree = "<group>"; };
+		A06C81C82C72F0D800181576 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		A06C81CA2C72F0EC00181576 /* Saved Guides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saved Guides.swift"; sourceTree = "<group>"; };
+		A09C652A2C44E36C003F1545 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A0A4764E2C744A2A001AA927 /* Mindone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mindone.png; sourceTree = "<group>"; };
 		A0BA7F1C2C40D3B500082026 /* MindfulnessiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulnessiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BA7F1F2C40D3B500082026 /* MindfulnessiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessiOSApp.swift; sourceTree = "<group>"; };
 		A0BA7F212C40D3B500082026 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +106,11 @@
 			children = (
 				A0BA7F1F2C40D3B500082026 /* MindfulnessiOSApp.swift */,
 				A0BA7F212C40D3B500082026 /* ContentView.swift */,
+				A0A4764E2C744A2A001AA927 /* Mindone.png */,
+				A06C81C82C72F0D800181576 /* Library.swift */,
+				A06C81CA2C72F0EC00181576 /* Saved Guides.swift */,
+				A06C81C62C72EF9D00181576 /* Recommendations.swift */,
+				A09C652A2C44E36C003F1545 /* Settings.swift */,
 				A0BA7F232C40D3B800082026 /* Assets.xcassets */,
 				A0BA7F252C40D3B800082026 /* Preview Content */,
 			);
@@ -231,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A4764F2C744A2A001AA927 /* Mindone.png in Resources */,
 				A0BA7F272C40D3B800082026 /* Preview Assets.xcassets in Resources */,
 				A0BA7F242C40D3B800082026 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06C81C72C72EF9D00181576 /* Recommendations.swift in Sources */,
+				A09C652B2C44E36C003F1545 /* Settings.swift in Sources */,
+				A06C81C92C72F0D800181576 /* Library.swift in Sources */,
+				A06C81CB2C72F0EC00181576 /* Saved Guides.swift in Sources */,
 				A0BA7F222C40D3B500082026 /* ContentView.swift in Sources */,
 				A0BA7F202C40D3B500082026 /* MindfulnessiOSApp.swift in Sources */,
 			);
